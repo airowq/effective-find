@@ -1,0 +1,2 @@
+[print('Нет корней' if (b**2-4*a*c)<0 else min(str((-b+(b**2-4*a*c)**0.5)/(2*a)), str((-b-(b**2-4*a*c)**0.5)/(2*a))) + '\n' + max(str((-b+(b**2-4*a*c)**0.5)/(2*a)), str((-b-(b**2-4*a*c)**0.5)/(2*a))) if (b**2-4*a*c)>0 else -b/(2*a)) for a in[float(input())] for b in[float(input())] for c in[float(input())]]
+# решение квадратного уравнения (входные данные индексы a, b, c) в 1 строку и без модуля math на Python 3 (каждую переменную записывать через Enter)
